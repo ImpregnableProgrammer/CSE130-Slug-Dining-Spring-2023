@@ -1,10 +1,12 @@
 CC=clang
 CFLAGS=-Wall -Wextra -Werror -std=c11 -pedantic -Wno-unused-parameter
 
-all: example1 example2
+all: example1 example2 example3 example4
 
 example1: example1.o dining.o utils.o
 example2: example2.o dining.o utils.o
+example3: example3.o dining.o utils.o
+example4: example4.o dining.o utils.o
 
 %.o : %.c
 	$(CC) $(CFLAGS) $< -c

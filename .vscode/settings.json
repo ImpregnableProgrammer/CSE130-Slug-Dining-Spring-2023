@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.lc": "elsa",
+        "semaphore.h": "c",
+        "pthread.h": "c"
+    }
+}
