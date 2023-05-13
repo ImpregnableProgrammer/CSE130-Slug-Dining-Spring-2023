@@ -6,7 +6,6 @@
 #include "utils.h"
 
 // Tests for cleaners entering and not having to wait indefinitely if students arrive after (extra credit)
-// Also checks for proper test case formatting
 int main(void) {
   dining_t* d = dining_init(3);
 
