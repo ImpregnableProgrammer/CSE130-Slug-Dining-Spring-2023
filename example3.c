@@ -6,6 +6,14 @@
 #include "utils.h"
 
 // Tests for cleaners entering and not having to wait indefinitely if students arrive after (extra credit)
+#include <pthread.h>
+#include <stdio.h>
+#include <unistd.h>
+
+#include "dining.h"
+#include "utils.h"
+
+// Tests for cleaners entering and not having to wait indefinitely if students arrive after (extra credit)
 int main(void) {
   dining_t* d = dining_init(3);
 
